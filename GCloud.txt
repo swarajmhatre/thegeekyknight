@@ -1,0 +1,19 @@
+//create project on google cloud
+sudo apt install google-cloud-cli
+
+gcloud init 
+1
+//pick cloud project
+
+//on google cloud
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+cd python-docs-samples/appengine/standard/hello_world
+dev_appserver.py app.yaml
+
+
+Or
+
+
+My way:
+snap install google-cloud-cli --classic
+gcloud init

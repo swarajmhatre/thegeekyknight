@@ -1,0 +1,75 @@
+PS D:\SMPrc> g++ A1.cpp -o myexe
+PS D:\SMPrc> ./myexe
+Enter number of nodes in the graph: 8
+Enter number of edges in the graph: 14
+Enter the endpoints of edge 1: 0 1
+Enter the endpoints of edge 2: 0 2
+Enter the endpoints of edge 3: 0 3
+Enter the endpoints of edge 4: 0 4
+Enter the endpoints of edge 5: 1 2
+Enter the endpoints of edge 6: 1 4
+Enter the endpoints of edge 7: 2 4
+Enter the endpoints of edge 8: 2 3
+Enter the endpoints of edge 9: 2 5
+Enter the endpoints of edge 10: 2 7
+Enter the endpoints of edge 11: 3 5
+Enter the endpoints of edge 12: 3 6
+Enter the endpoints of edge 13: 5 6
+Enter the endpoints of edge 14: 6 7
+ Enter 0 to exit
+ Enter 1 to perform DFS and 2 to perform BFS: 1
+Enter the node to search i.e.Target: 5
+DFS traversal: DFS path from start node to Target node: 0 3 5
+Vertex 5 found in the graph
+ Enter 0 to exit
+ Enter 1 to perform DFS and 2 to perform BFS: 2
+Enter the node to search i.e.Target: 5
+BFS traversal: BFS path from start node to search node: 0 2 5
+Vertex 5 found in the graph
+ Enter 0 to exit
+ Enter 1 to perform DFS and 2 to perform BFS: Enter the node to search i.e.Target: BFS traversal: BFS path from start node to search node: 0 2 5
+Vertex 5
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Enter number of nodes in the graph:
+PS D:\SMPrc> g++ A2_052_ASTAR.cpp -o myexe
+PS D:\SMPrc> ./myexe
+Enter the number of cities: 5
+
+Enter the distance matrix:
+TO:      C1  C2  C3  C4  C5
+from C1  0 60 100 50 90
+from C2  60 0 70 40 30
+from C3  100 70 0 65 55
+from C4  50 40 65 0 110
+from C5  90 30 55 110 0
+
+Shortest path vertices: C1 -> C4 -> C2 -> C5 -> C3 -> C1
+Shortest path length: 275
+
+--------------------------------------------------------------------------------------------------------------------------
+
+PS D:\SMPrc> g++ A3.cpp -o myexe
+PS D:\SMPrc> ./myexe
+Enter the number of jobs: 5
+Enter details for job:
+        Id Dl Pr
+ Job 0: a 2 20
+Job 1: c 1 10
+Job 2: b 2 15
+Job 3: d 3 5
+Job 4: c 3 1
+
+Menu:
+1. Print job sequence for maximum profit
+ 2. Add a new job
+3. Exit
+Enter your choice: 1
+Job sequence for maximum profit: b a d
+
+Menu:
+1. Print job sequence for maximum profit
+ 2. Add a new job
+3. Exit
+Enter your choice:

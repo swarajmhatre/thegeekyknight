@@ -1,0 +1,19 @@
+swaraj@salesforce.com
+
+smhatre@9320
+
+github:
+
+
+
+
+4:
+New objects in object manager
+
+Search tabs in home
+
+Settings->Setup->Search Apps-> New Lightening App
+
+Dots on left-> Search for the created objects-> Fill info
+
+Objects-> click on object -> edit.
